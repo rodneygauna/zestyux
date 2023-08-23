@@ -254,3 +254,161 @@ a {
 a:hover {
     color: var(--color-dark-variant);
 }
+
+/* Buttons
+--------------------------- */
+/* Basic Button */
+.btn,
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    background-color: transparent;
+    border-radius: var(--border-radius-1);
+    border: 1px solid var(--color-dark-variant);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin: 0.8rem 0.1rem;
+}
+
+.btn:hover,
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.btn:focus,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    border: 1px solid var(--color-dark);
+}
+
+/* Primary Button */
+.btn-primary,
+.button-primary,
+button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    color: var(--color-white);
+}
+
+.btn-primary:hover,
+.button-primary:hover,
+button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.btn-primary:focus,
+.button-primary:focus,
+button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-dark);
+    color: var(--color-white);
+    transition: all 0.35s ease-in-out;
+}
+
+/* Danger Button */
+.btn-danger,
+.button-danger,
+button-danger,
+input[type="submit"].button-danger,
+input[type="reset"].button-danger,
+input[type="button"].button-danger {
+    background-color: var(--color-danger);
+    border: 1px solid var(--color-danger);
+    color: var(--color-white);
+}
+
+.btn-danger:hover,
+.button-danger:hover,
+button-danger:hover,
+input[type="submit"].button-danger:hover,
+input[type="reset"].button-danger:hover,
+input[type="button"].button-danger:hover,
+.btn-danger:focus,
+.button-danger:focus,
+button-danger:focus,
+input[type="submit"].button-danger:focus,
+input[type="reset"].button-danger:focus,
+input[type="button"].button-danger:focus {
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-dark);
+    color: var(--color-white);
+    transition: all 0.35s ease-in-out;
+}
+
+/* Success Button */
+.btn-success,
+.button-success,
+button-success,
+input[type="submit"].button-success,
+input[type="reset"].button-success,
+input[type="button"].button-success {
+    background-color: var(--color-success);
+    border: 1px solid var(--color-success);
+    color: var(--color-white);
+}
+
+.btn-success:hover,
+.button-success:hover,
+button-success:hover,
+input[type="submit"].button-success:hover,
+input[type="reset"].button-success:hover,
+input[type="button"].button-success:hover,
+.btn-success:focus,
+.button-success:focus,
+button-success:focus,
+input[type="submit"].button-success:focus,
+input[type="reset"].button-success:focus,
+input[type="button"].button-success:focus {
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-dark);
+    color: var(--color-white);
+    transition: all 0.35s ease-in-out;
+}
+
+/* Warning Button */
+.btn-warning,
+.button-warning,
+button-warning,
+input[type="submit"].button-warning,
+input[type="reset"].button-warning,
+input[type="button"].button-warning {
+    background-color: var(--color-warning);
+    border: 1px solid var(--color-warning);
+    color: var(--color-dark);
+}
+
+.btn-warning:hover,
+.button-warning:hover,
+button-warning:hover,
+input[type="submit"].button-warning:hover,
+input[type="reset"].button-warning:hover,
+input[type="button"].button-warning:hover,
+.btn-warning:focus,
+.button-warning:focus,
+button-warning:focus,
+input[type="submit"].button-warning:focus,
+input[type="reset"].button-warning:focus,
+input[type="button"].button-warning:focus {
+    background-color: var(--color-dark);
+    border: 1px solid var(--color-dark);
+    color: var(--color-white);
+    transition: all 0.35s ease-in-out;
+}
