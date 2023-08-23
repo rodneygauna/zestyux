@@ -41,6 +41,16 @@
   <body>
     <!-- Primary Page Layout - Start -->
     <div class="container">
+      <!-- Banner Holding Spot - Start -->
+      <div class="row">
+        <div class="banner-container">
+          <div class="banner">
+            <span class="banner-text">This is a banner.</span>
+            <button class="banner-close" onclick="hideBanner()">&times;</button>
+          </div>
+        </div>
+      </div>
+      <!-- Banner Holding Spot - End -->
       <h1>Zesty UX CSS</h1>
       <!-- Grid - Start -->
       <div class="row">
@@ -120,6 +130,66 @@
             <div class="one-third column">one-third</div>
           </div>
         </div>
+        <div class="row">
+          <pre><code>&lt;!-- Grid --&gt;
+&lt;div class="row"&gt;
+  &lt;div class="one column"&gt;one&lt;/div&gt;
+  &lt;div class="eleven columns"&gt;eleven&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="two columns"&gt;two&lt;/div&gt;
+  &lt;div class="ten columns"&gt;ten&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="three columns"&gt;three&lt;/div&gt;
+  &lt;div class="nine columns"&gt;nine&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="four columns"&gt;four&lt;/div&gt;
+  &lt;div class="eight columns"&gt;eight&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="five columns"&gt;five&lt;/div&gt;
+  &lt;div class="seven columns"&gt;seven&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="six columns"&gt;six&lt;/div&gt;
+  &lt;div class="six columns"&gt;six&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="seven columns"&gt;seven&lt;/div&gt;
+  &lt;div class="five columns"&gt;five&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="eight columns"&gt;eight&lt;/div&gt;
+  &lt;div class="four columns"&gt;four&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="nine columns"&gt;nine&lt;/div&gt;
+  &lt;div class="three columns"&gt;three&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="ten columns"&gt;ten&lt;/div&gt;
+  &lt;div class="two columns"&gt;two&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="eleven columns"&gt;eleven&lt;/div&gt;
+  &lt;div class="one columns"&gt;one&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="half column"&gt;half&lt;/div&gt;
+  &lt;div class="half column"&gt;half&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="one-third column"&gt;one-third&lt;/div&gt;
+  &lt;div class="two-third column"&gt;two-third&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="two-third column"&gt;two-third&lt;/div&gt;
+  &lt;div class="one-third column"&gt;one-third&lt;/div&gt;
+&lt;/div&gt;
+          </code></pre>
+        </div>
       </div>
       <!-- Grid - End -->
       <!-- Typography - Start -->
@@ -154,6 +224,21 @@
             <p class="text-muted">Muted Text</p>
           </div>
         </div>
+        <div class="row">
+          <pre><code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+&lt;p&gt;Paragraph&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Strong&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Italicized&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#"&gt;Hyperlink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Underlined&lt;/u&gt;&lt;/p&gt;
+&lt;p class="text-muted"&gt;Muted Text&lt;/p&gt;
+            </code></pre>
+        </div>
       </div>
       <!-- Typography - End -->
       <!-- Buttons - Start -->
@@ -172,12 +257,117 @@
           <button class="button-warning">Button Warning</button>
           <button class="button-success">Button Success</button>
         </div>
+        <div class="row">
+          <pre><code>&lt;!-- Standard Buttons --&gt;
+&lt;button&gt;Button element&lt;/button&gt;
+&lt;a href="#" class="button"&gt;Anchor Button&lt;/a&gt;
+&lt;input type="submit" value="Submit Input" /&gt;
+&lt;input type="button" value="Button Input" /&gt;
+
+&lt;!-- Buttons with colors --&gt;
+&lt;button class="button-primary"&gt;Button Primary&lt;/button&gt;
+&lt;button class="button-danger"&gt;Button Danger&lt;/button&gt;
+&lt;button class="button-warning"&gt;Button Warning&lt;/button&gt;
+&lt;button class="button-success"&gt;Button Success&lt;/button&gt;
+            </code></pre>
+        </div>
       </div>
+      <!-- Buttons - End -->
+      <!-- Code - Start -->
+      <div class="row">
+        <h2>Code</h2>
+        <p>Code description goes here.</p>
+        <div class="row">
+          <pre><code>&lt;!-- Code Block --&gt;
+&lt;pre&gt;&lt;code&gt;code&lt;/code&gt;&lt;/pre&gt;
+          </code></pre>
+        </div>
+      </div>
+      <!-- Code - End -->
+      <!-- Forms - Start -->
+      <!-- Forms - End -->
+      <!-- Tables - Start -->
+      <!-- Tables - End -->
+      <!-- Lists - Start -->
+      <!-- Lists - End -->
+      <!-- Images - Start -->
+      <!-- Images - End -->
+      <!-- Banners - Start -->
+      <div class="row">
+        <h2>Banners</h2>
+        <p>Explain what banners are.</p>
+        <button id="testBannerBtn">Test Banner</button>
+        <button class="button-success" id="testSuccessBannerBtn">
+          Test Success Banner
+        </button>
+        <button class="button-danger" id="testDangerBannerBtn">
+          Test Danger Button
+        </button>
+        <button class="button-warning" id="testWarningBannerBtn">
+          Test Warning Banner
+        </button>
+      </div>
+      <!-- Banners - End -->
+      <!-- Cards - Start -->
+      <div class="row">
+        <h2>Cards</h2>
+        <p>Describe cards here.</p>
+        <div class="card">
+          <div class="card-header">Header</div>
+          <div class="card-body">Body of the card goes here and stuff.</div>
+          <div class="card-footer">The footer of the card.</div>
+        </div>
+        <div class="row">
+          <pre><code>&lt;div class="card"&gt;
+  &lt;div class="card-header"&gt;Header&lt;/div&gt;
+  &lt;div class="card-body"&gt;Body of the card goes here and stuff.&lt;/div&gt;
+  &lt;div class="card-footer"&gt;The footer of the card.&lt;/div&gt;
+&lt;/div&gt;
+          </code></pre>
+        </div>
+      </div>
+      <!-- Cards - End -->
     </div>
     <!-- Primary Page Layout - End -->
 
     <!-- JavaScript - Start -->
+    <!-- Zesty UX JS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="./js/zesty.js"></script>
+
+    <!-- Demo JS (DELETE THIS)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script>
+      // Test Banner Buttons
+      // Get the banner div and the test banner button
+      const bannerDiv = document.querySelector(".banner");
+      const testBannerBtn = document.getElementById("testBannerBtn");
+      const testSuccessBannerBtn = document.getElementById(
+        "testSuccessBannerBtn"
+      );
+      const testDangerBannerBtn = document.getElementById(
+        "testDangerBannerBtn"
+      );
+      const testWarningBannerBtn = document.getElementById(
+        "testWarningBannerBtn"
+      );
+
+      testBannerBtn.addEventListener("click", () => {
+        showBanner();
+      });
+      testSuccessBannerBtn.addEventListener("click", () => {
+        bannerDiv.classList.add("success");
+        showBanner();
+      });
+      testDangerBannerBtn.addEventListener("click", () => {
+        bannerDiv.classList.add("danger");
+        showBanner();
+      });
+      testWarningBannerBtn.addEventListener("click", () => {
+        bannerDiv.classList.add("warning");
+        showBanner();
+      });
+    </script>
     <!-- JavaScript - End -->
   </body>
 </html>
