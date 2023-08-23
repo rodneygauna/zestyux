@@ -6,11 +6,10 @@
 * http://www.gnu.org/licenses/gpl.html
 */
 
+/* Side Menu Functionality */
 const sideMenu = document.querySelector('aside');
 const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('close-btn');
-
-const darkMode = document.querySelector('.dark-mode');
 
 menuBtn.addEventListener('click', () => {
     sideMenu.style.display = 'block';
@@ -19,6 +18,9 @@ menuBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
     sideMenu.style.display = 'none';
 });
+
+/* Dark Mode Functionality */
+const darkMode = document.querySelector('.dark-mode');
 
 darkMode.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode-variables');
