@@ -10,6 +10,7 @@
 ---------------------------
 - Font Import
 - Base Styles
+- Dark Mode
 - Grid
 - Typography
 - Buttons
@@ -82,6 +83,34 @@ body {
     overflow-x: hidden;
     color: var(--color-dark);
     background-color: var(--color-background);
+}
+
+/* Dark Mode
+--------------------------- */
+.dark-mode {
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.dark-mode span {
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-mode span.active {
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
 }
 
 /* Grid
