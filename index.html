@@ -8,9 +8,6 @@
     <meta name="author" content="" />
     <title>Zesty UX</title>
 
-    <!-- Font
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="./css/normalize.css" />
@@ -23,17 +20,138 @@
       type="image/png"
       href="./images/favicon/favicon-32x32.png"
     />
+
+    <!-- Custom Styling For Demo Reasons Only (DELETE THIS)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <style>
+      .example-grid .column,
+      .example-grid .columns {
+        background: #eeeeee;
+        text-align: center;
+        border-radius: 4px;
+        text-transform: uppercase;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+      }
+    </style>
   </head>
   <body>
     <!-- Primary Page Layout - Start -->
     <div class="container">
       <h1>Zesty UX CSS</h1>
+      <!-- Grid - Start -->
       <div class="row">
-        <div class="six columns">
-          <h2>left</h2>
+        <h2>The Grid</h2>
+        <p>
+          The grid is a 12-column fluid grid that shrinks with the browser at
+          smaller sizes (similar to
+          <a
+            href="http://getskeleton.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Skeleton CSS</a
+          >
+          and
+          <a
+            href="http://getbootstrap.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Bootstrap CSS</a
+          >). The syntax is simple and it makes coding responsive much easier.
+        </p>
+        <div class="example-grid">
+          <div class="row">
+            <div class="one column">one</div>
+            <div class="eleven columns">eleven</div>
+          </div>
+          <div class="row">
+            <div class="two columns">two</div>
+            <div class="ten columns">ten</div>
+          </div>
+          <div class="row">
+            <div class="three columns">three</div>
+            <div class="nine columns">nine</div>
+          </div>
+          <div class="row">
+            <div class="four columns">four</div>
+            <div class="eight columns">eight</div>
+          </div>
+          <div class="row">
+            <div class="five columns">five</div>
+            <div class="seven columns">seven</div>
+          </div>
+          <div class="row">
+            <div class="six columns">six</div>
+            <div class="six columns">six</div>
+          </div>
+          <div class="row">
+            <div class="seven columns">seven</div>
+            <div class="five columns">five</div>
+          </div>
+          <div class="row">
+            <div class="eight columns">eight</div>
+            <div class="four columns">four</div>
+          </div>
+          <div class="row">
+            <div class="nine columns">nine</div>
+            <div class="three columns">three</div>
+          </div>
+          <div class="row">
+            <div class="ten columns">ten</div>
+            <div class="two columns">two</div>
+          </div>
+          <div class="row">
+            <div class="eleven columns">eleven</div>
+            <div class="one columns">one</div>
+          </div>
+          <div class="row">
+            <div class="half column">half</div>
+            <div class="half column">half</div>
+          </div>
+          <div class="row">
+            <div class="one-third column">one-third</div>
+            <div class="two-third column">two-third</div>
+          </div>
+          <div class="row">
+            <div class="two-third column">two-third</div>
+            <div class="one-third column">one-third</div>
+          </div>
         </div>
-        <div class="six columns">
-          <h2>right</h2>
+      </div>
+      <!-- Grid - End -->
+      <div class="row">
+        <h2>Typography</h2>
+        <p>Description of what Typography stuff Zesty uses.</p>
+        <div class="row">
+          <div class="half column">
+            <p>
+              The Typography base is
+              <a
+                href="https://fonts.google.com/specimen/Poppins"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Poppins</a
+              >
+              servered by Google, set at 14px over a 1.6 line height.
+            </p>
+          </div>
+          <div class="half column">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <p>Paragraph</p>
+            <p><strong>Strong</strong></p>
+            <p><em>Italicized</em></p>
+            <p><a href="#">Hyperlink</a></p>
+            <p><u>Underlined</u></p>
+            <p class="text-muted">Muted Text</p>
+          </div>
         </div>
       </div>
     </div>
