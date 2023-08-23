@@ -1,12 +1,20 @@
 /*
-* Zesty CSS
+* Zesty UX
 * Copyright 2023, Rodney Gauna
 * www.zestyux.com
 * Free to use under the GNU GPL v3.0 license
 * http://www.gnu.org/licenses/gpl.html
 */
 
-/* Side Menu Functionality */
+/* Table of Contents
+---------------------------
+- Side Menu Functionality
+- Dark Mode Functionality
+- Banner Functionality
+*/
+
+/* Side Menu Functionality
+--------------------------- */
 const sideMenu = document.querySelector('aside');
 const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('close-btn');
@@ -19,7 +27,8 @@ closeBtn.addEventListener('click', () => {
     sideMenu.style.display = 'none';
 });
 
-/* Dark Mode Functionality */
+/* Dark Mode Functionality
+--------------------------- */
 const darkMode = document.querySelector('.dark-mode');
 
 darkMode.addEventListener('click', () => {
@@ -28,7 +37,8 @@ darkMode.addEventListener('click', () => {
     darkMode.querySelector('span:nth-child(2)').classList.toggle('active');
 })
 
-/* Banner Functionality */
+/* Banner Functionality
+--------------------------- */
 var fadeOutInterval;
 
 function showBanner() {
