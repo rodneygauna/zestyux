@@ -315,6 +315,7 @@ input[type="button"] {
     white-space: nowrap;
     box-sizing: border-box;
     margin: 0.8rem 0.1rem;
+    color: var(--color-dark);
 }
 
 .btn:hover,
@@ -341,7 +342,7 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
-    color: var(--color-white);
+    color: var(--color-dark);
 }
 
 .btn-primary:hover,
@@ -371,7 +372,7 @@ input[type="reset"].button-danger,
 input[type="button"].button-danger {
     background-color: var(--color-danger);
     border: 1px solid var(--color-danger);
-    color: var(--color-white);
+    color: var(--color-dark);
 }
 
 .btn-danger:hover,
@@ -401,7 +402,7 @@ input[type="reset"].button-success,
 input[type="button"].button-success {
     background-color: var(--color-success);
     border: 1px solid var(--color-success);
-    color: var(--color-white);
+    color: var(--color-dark);
 }
 
 .btn-success:hover,
@@ -431,7 +432,7 @@ input[type="reset"].button-warning,
 input[type="button"].button-warning {
     background-color: var(--color-warning);
     border: 1px solid var(--color-warning);
-    color: var(--color-white);
+    color: var(--color-dark);
 }
 
 .btn-warning:hover,
@@ -456,10 +457,10 @@ input[type="button"].button-warning:focus {
 --------------------------- */
 code {
     border-radius: var(--border-radius-1);
-    background: var(--color-info-dark);
+    background: var(--color-background);
     border: 1px solid var(--color-dark);
     font-size: 90%;
-    color: var(--color-background);
+    color: var(--color-dark);
     white-space: nowrap;
 }
 
@@ -538,12 +539,13 @@ pre > code {
 
 .banner-text {
     margin-right: 1rem;
+    color: var(--color-dark);
 }
 
 .banner-close {
     background: none;
     border: none;
-    color: inherit;
+    color: var(--color-dark);
     font: inherit;
     line-height: normal;
     overflow: visible;
