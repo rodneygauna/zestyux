@@ -644,6 +644,22 @@ label > .label-body {
     font-weight: normal;
 }
 
+/* Checkboxes */
+input[type="checkbox"] + span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.5rem 0.1rem;
+    cursor: pointer;
+}
+
+/* Radio Buttons */
+input[type="radio"] + span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.5rem 0.1rem;
+    cursor: pointer;
+}
+
 /* Tables
 --------------------------- */
 table {
