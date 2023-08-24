@@ -1,6 +1,6 @@
 # Zesty UX - CSS Framework
 
-![Zesty UX](/images/logo/zesty_logo_741x750.png "Zesty UX")
+![Zesty UX](/images/logo/zesty_logo_729x675.png "Zesty UX")
 
 ## What is Zesty UX?
 
