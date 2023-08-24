@@ -31,12 +31,12 @@ ZestyUX
 │   ├── normalize.css
 │   └── zesty.css
 ├── images/
-│   └── favicon/
+│   ├── favicon/
 │       └── favicon-32x32.png
 │   └── logo/
-│       └── zesty_logo_729x675.png
-│       └── zesty_logo_1024x1024.png
-│       └── zesty-kun_741x750.png
+│       ├── zesty_logo_729x675.png
+│       ├── zesty_logo_1024x1024.png
+│       ├── zesty-kun_741x750.png
 │       └── zesty-kun_1024x1024.png
 └── js/
     └── zesty.js
