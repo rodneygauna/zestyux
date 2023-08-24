@@ -650,7 +650,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
     color: var(--color-dark);
 }
 
@@ -669,4 +669,131 @@ td:first-child {
 th:last-child,
 td:last-child {
     padding-right: 0;
+}
+
+/* Aternate Table Row Colors */
+.alt-colors tr:nth-child(even) {
+    background-color: var(--color-info-dark);
+}
+
+/* Lists
+--------------------------- */
+ul,
+ol {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+
+ul {
+    list-style: circle inside;
+}
+
+ol {
+    list-style: decimal inside;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+/* Utilities
+--------------------------- */
+.full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+/* Miscelaneous
+--------------------------- */
+/* Hide */
+.hide {
+    display: none;
+}
+
+/* Show */
+.show {
+    display: block;
+}
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Text Align */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Text Transform */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+/* Text Truncate */
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Text Wrap */
+.text-wrap {
+    white-space: normal;
+}
+
+/* Text Break */
+.text-break {
+    word-break: break-word;
+}
+
+/* Text Reset */
+.text-reset {
+    color: inherit;
+}
+
+/* Text Decoration */
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* Horizontal Rule */
+.hr {
+    border: 0;
+    border-top: 1px solid var(--color-dark-variant);
 }
