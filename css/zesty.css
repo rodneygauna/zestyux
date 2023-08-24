@@ -705,6 +705,22 @@ li {
     margin-bottom: 1rem;
 }
 
+/* Images
+--------------------------- */
+img {
+    max-width: 100%;
+}
+
+/* Image with a rounded border */
+.squared {
+    border-radius: var(--border-radius-1);
+}
+
+/* Image with a circle border */
+.rounded {
+    border-radius: 50%;
+}
+
 /* Utilities
 --------------------------- */
 .full-width {
