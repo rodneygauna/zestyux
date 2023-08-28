@@ -27,12 +27,12 @@
 --------------------------- */
 :root {
     /* Colors */
-    --color-primary: #6C9BCF;
-    --color-danger: #FF0060;
-    --color-success: #1B9C85;
-    --color-warning: #F7D060;
+    --color-primary: #00A2FF;
+    --color-danger: #FB6161;
+    --color-success: #24BF79;
+    --color-warning: #FFB800;
     --color-white: #FFFFFF;
-    --color-info-dark: #7D8DA1;
+    --color-info-dark: #000C1A;
     --color-dark: #363949;
     --color-light: rgba(132, 139, 200, 0.18);
     --color-dark-variant: #677483;
@@ -52,7 +52,7 @@
 }
 
 .dark-mode-variables {
-    --color-background: #181A1E;
+    --color-background: #0E1B30;
     --color-white: #202528;
     --color-dark: #EDEFFD;
     --color-dark-variant: #A3BDCC;
@@ -274,7 +274,7 @@ h6 {
 }
 
 p {
-    color: var(--color-dark-variant);
+    color: var(--color-dark);
     font-weight: 300;
 }
 
@@ -341,7 +341,7 @@ input[type="reset"].button-primary,
 input[type="button"].button-primary {
     background-color: var(--color-primary);
     border: 1px solid var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-white);
 }
 
 .btn-primary:hover,
@@ -371,7 +371,7 @@ input[type="reset"].button-danger,
 input[type="button"].button-danger {
     background-color: var(--color-danger);
     border: 1px solid var(--color-danger);
-    color: var(--color-dark);
+    color: var(--color-white);
 }
 
 .btn-danger:hover,
@@ -401,7 +401,7 @@ input[type="reset"].button-success,
 input[type="button"].button-success {
     background-color: var(--color-success);
     border: 1px solid var(--color-success);
-    color: var(--color-dark);
+    color: var(--color-white);
 }
 
 .btn-success:hover,
@@ -431,7 +431,7 @@ input[type="reset"].button-warning,
 input[type="button"].button-warning {
     background-color: var(--color-warning);
     border: 1px solid var(--color-warning);
-    color: var(--color-dark);
+    color: var(--color-white);
 }
 
 .btn-warning:hover,
@@ -688,7 +688,7 @@ td:last-child {
 
 /* Aternate Table Row Colors */
 .alt-colors tr:nth-child(even) {
-    background-color: var(--color-info-dark);
+    background-color: var(--color-dark-variant);
 }
 
 /* Lists
