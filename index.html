@@ -73,7 +73,17 @@
       <!-- Light/Dark Mode Toggle - Start -->
       <div class="row">
         <h2>Light and Dark Themes</h2>
-        <p>Zesty UX CSS offers a dark and light theme.</p>
+        <p>
+          Zesty UX CSS offers a dark and light theme. GitHub Copilot: The light
+          and dark theme styling provides a way to toggle between a light and
+          dark color scheme for a webpage. The "light-mode" and "dark-mode"
+          classes are used to apply different background and text colors to
+          elements on the page. The "active" class is used to indicate which
+          theme is currently active. The JavaScript applied to the theme toggle
+          allows the user to manually switch between the light and dark themes,
+          and the user's preference is saved in local storage so that it
+          persists across page refreshes.
+        </p>
         <div class="dark-mode">
           <span class="active"> L </span>
           <span class=""> D </span>
@@ -83,8 +93,8 @@
       <div class="row">
         <h2>The Grid</h2>
         <p>
-          The grid is a 12-column fluid grid that shrinks with the browser at
-          smaller sizes (similar to
+          The grid styling provides a way to create a 12-column fluid grid that
+          shrinks with the browser at smaller sizes (similar to
           <a
             href="http://getskeleton.com"
             target="_blank"
@@ -97,7 +107,16 @@
             target="_blank"
             rel="noopener noreferrer"
             >Bootstrap CSS</a
-          >). The syntax is simple and it makes coding responsive much easier.
+          >).
+        </p>
+        <p>
+          The "row" class is used to create a row of columns, and the "columns"
+          class is used to create a column within a row. The number in the
+          "columns" class indicates the number of columns the element should
+          span. For example, "one column" would create a column that spans one
+          column, while "eleven columns" would create a column that spans eleven
+          columns. The grid syntax is simple and makes coding responsive much
+          easier.
         </p>
         <div class="example-grid">
           <div class="row">
@@ -222,27 +241,44 @@
       <!-- Typography - Start -->
       <div class="row">
         <h2>Typography</h2>
-        <p>Description of what Typography stuff Zesty uses.</p>
+        <p>
+          The typography styling provides a way to apply different font sizes,
+          weights, and styles to text on a webpage. The "h1" through "h6" tags
+          are used to create different heading levels, with "h1" being the
+          largest and "h6" being the smallest. The "p" tag is used to create
+          paragraphs of text. The "small" tag can be used to create smaller
+          text, such as captions or disclaimers. The "strong" tag can be used to
+          apply bold styling to text, and the "em" tag can be used to apply
+          italic styling to text. The "text-center" class can be applied to any
+          element to center the text within its container. The "text-muted"
+          class can be applied to any element to apply a muted color to the
+          text, indicating that it is less important than other text on the
+          page.
+        </p>
+        <p>
+          The Typography base is
+          <a
+            href="https://fonts.google.com/specimen/Poppins"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Poppins</a
+          >
+          servered by Google, set at 14px over a 1.6 line height.
+        </p>
         <div class="row">
           <div class="half column">
-            <p>
-              The Typography base is
-              <a
-                href="https://fonts.google.com/specimen/Poppins"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Poppins</a
-              >
-              servered by Google, set at 14px over a 1.6 line height.
-            </p>
-          </div>
-          <div class="half column">
+            <h3>Headings</h3>
+            <br />
             <h1>Heading 1</h1>
             <h2>Heading 2</h2>
             <h3>Heading 3</h3>
             <h4>Heading 4</h4>
             <h5>Heading 5</h5>
             <h6>Heading 6</h6>
+          </div>
+          <div class="half column">
+            <h3>Paragraphs & Other Text Formatting</h3>
+            <br />
             <p>Paragraph</p>
             <p><strong>Strong</strong></p>
             <p><em>Italicized</em></p>
@@ -271,7 +307,20 @@
       <!-- Buttons - Start -->
       <div class="row">
         <h2>Buttons</h2>
-        <p>Buttons description goes here.</p>
+        <p>
+          The button styling provides a way to style button, anchor, and input
+          elements in a cohesive and visually appealing way. The "button" tag is
+          used to create a standard button element, and the "a" tag is used to
+          create an anchor button. The "input" tag can be used to create a
+          submit or button input element.
+        </p>
+        <p>
+          The "button-primary" class can be applied to a button element to make
+          it stand out as the primary action for the form. The "button-danger",
+          "button-warning", and "button-success" classes can be applied to
+          indicate different types of actions. The "button" class can be applied
+          to any of these elements to apply the standard button styling.
+        </p>
         <div class="row">
           <button>Button element</button>
           <a href="#" class="button">Anchor Button</a>
@@ -303,7 +352,15 @@
       <!-- Code - Start -->
       <div class="row">
         <h2>Code</h2>
-        <p>Code description goes here.</p>
+        <p>
+          The code block styling provides a way to display code snippets in a
+          visually appealing way. The "pre" tag is used to create a block of
+          preformatted text, and the "code" tag is used to indicate that the
+          text is code. The "code" tag can be used in combination with syntax
+          highlighting libraries to color code different parts of the code based
+          on their function. The "code-block" class can be applied to the "pre"
+          tag to add a border and unique font styling to the code block.
+        </p>
         <div class="row">
           <pre><code>&lt;!-- Code Block --&gt;
 &lt;pre&gt;&lt;code&gt;code&lt;/code&gt;&lt;/pre&gt;
@@ -314,7 +371,20 @@
       <!-- Forms - Start -->
       <div class="row">
         <h2>Forms</h2>
-        <p>Forms description goes here.</p>
+        <p>
+          The forms styling provides a way to style input and form elements in a
+          cohesive and visually appealing way. The "label" tag is used to create
+          a label for each input element, and the "for" attribute is used to
+          associate the label with the input element. The "input" tag is used to
+          create various types of input elements, such as text, email, radio
+          buttons, and checkboxes. The "select" tag is used to create a dropdown
+          menu for selecting an option. The "textarea" tag is used to create a
+          multi-line text input field. The "full-width" class can be applied to
+          input elements to make them span the full width of their container.
+          The "row" and "column" classes can be used to create a grid layout for
+          input elements. The "button-primary" class can be applied to a button
+          element to make it stand out as the primary action for the form.
+        </p>
         <form>
           <div class="row">
             <div class="half column">
@@ -369,12 +439,83 @@
           </div>
           <input class="button-primary" type="submit" value="Submit" />
         </form>
+        <div class="row">
+          <pre><code>&lt;form&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="half column"&gt;
+      &lt;label for="exampleEmailInput"&gt;Your email&lt;/label&gt;
+      &lt;input
+        class="full-width"
+        type="email"
+        placeholder="
+        id="exampleEmailInput"
+      /&gt;
+    &lt;/div&gt;
+    &lt;div class="half column"&gt;
+      &lt;label for="exampleRecipientInput"&gt;Reason for contacting&lt;/label&gt;
+      &lt;select class="full-width" id="exampleRecipientInput"&gt;
+        &lt;option value="Option 1"&gt;Questions&lt;/option&gt;
+        &lt;option value="Option 2"&gt;Admiration&lt;/option&gt;
+        &lt;option value="Option 3"&gt;Can I get your number?&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="twelve columns"&gt;
+      &lt;label for="exampleMessage"&gt;Message&lt;/label&gt;
+      &lt;textarea
+        class="full-width"
+        placeholder="Leave a message after the beep…"
+        id="exampleMessage"
+      &gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="half column"&gt;
+      &lt;label&gt;
+        &lt;input type="radio" name="language" id="html" /&gt;
+        &lt;span&gt;HTML&lt;/span&gt;
+      &lt;/label&gt;
+      &lt;label&gt;
+        &lt;input type="radio" name="language" id="css" /&gt;
+        &lt;span&gt;CSS&lt;/span&gt;
+      &lt;/label&gt;
+      &lt;label&gt;
+        &lt;input type="radio" name="language" id="js" /&gt;
+        &lt;span&gt;JavaScript&lt;/span&gt;
+      &lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class="half column"&gt;
+      &lt;label&gt;
+        &lt;input type="checkbox" /&gt;
+        &lt;span&gt;Send a copy to yourself&lt;/span&gt;
+      &lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;input class="button-primary" type="submit" value="Submit" /&gt;
+&lt;/form&gt;
+          </code></pre>
+        </div>
       </div>
       <!-- Forms - End -->
       <!-- Tables - Start -->
       <div class="row">
         <h2>Tables</h2>
-        <p>Table information goes here.</p>
+        <p>
+          The table styling provides a way to display data in a structured
+          format with rows and columns. The "table" tag is used to create the
+          table, and the "tr" tag is used to create each row. Within each row,
+          the "td" tag is used to create each cell. The "th" tag is used to
+          create the header cell for each column. The "colspan" and "rowspan"
+          attributes can be used to merge cells across multiple rows or columns.
+          The "table-layout" property can be used to control the width of the
+          table and its cells. The "border-collapse" property can be used to
+          collapse the borders between cells, creating a cleaner look.
+        </p>
+        <p>
+          The "alt-colors" class can be applied to the table element to
+          alternate the background color of each row, making it easier to read.
+        </p>
         <h3>Classic Table</h3>
         <table>
           <thead>
@@ -407,6 +548,40 @@
             </tr>
           </tbody>
         </table>
+        <div class="row">
+          <pre><code>&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+    &lt;th&gt;Table Header&lt;/th&gt;
+    &lt;th&gt;Table Header&lt;/th&gt;
+    &lt;th&gt;Table Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+          </code></pre>
+        </div>
         <h3>Alternating Row Colors</h3>
         <table class="alt-colors">
           <thead>
@@ -440,10 +615,56 @@
           </tbody>
         </table>
       </div>
+      <div class="row">
+        <pre><code>&lt;table class="alt-colors"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+    &lt;th&gt;Table Header&lt;/th&gt;
+    &lt;th&gt;Table Header&lt;/th&gt;
+    &lt;th&gt;Table Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+          </code></pre>
+      </div>
       <!-- Tables - End -->
       <!-- Lists - Start -->
       <div class="row">
         <h2>Lists</h2>
+        <p>
+          The list styling provides a way to display ordered and unordered lists
+          with a unique font size, weight, and spacing to display the hierarchy
+          of text. The "unordered list" is created using the "ul" tag, and each
+          list item is created using the "li" tag. The "ordered list" is created
+          using the "ol" tag, and each list item is also created using the "li"
+          tag. Nested lists can be created by placing a list inside another list
+          item. The "list-style-type" property can be used to change the bullet
+          point or numbering style of the list. The "list-style-position"
+          property can be used to change the position of the bullet point or
+          numbering relative to the text.
+        </p>
         <div class="row">
           <div class="half column">
             <h3>Unordered List</h3>
@@ -475,7 +696,14 @@
       <!-- Images - Start -->
       <div class="row">
         <h2>Images</h2>
-        <p>Description about images goes here.</p>
+        <p>
+          The "img" styling provides a way to apply different styles to images
+          on a webpage. The "rounded" class applies a 50% radius to the image,
+          making it appear circular. The "squared" class applies the baseline
+          radius to the image, making it appear square. The images will use
+          their default max-width unless otherwise specified. These classes can
+          be used to create visually appealing image displays on a webpage.
+        </p>
         <div class="row">
           <div class="four columns">
             <h3>Plain Image</h3>
@@ -501,12 +729,30 @@
             />
           </div>
         </div>
+        <div class="row">
+          <pre><code>&lt;img src="./images/logo/zesty-kun_1024x1024.png" alt="plain image" /&gt;
+&lt;img src="./images/logo/zesty-kun_1024x1024.png" alt="rounded image" class="rounded" /&gt;
+&lt;img src="./images/logo/zesty-kun_1024x1024.png" alt="squared image" class="squared" /&gt;
+          </code></pre>
+        </div>
       </div>
       <!-- Images - End -->
       <!-- Banners - Start -->
       <div class="row">
         <h2>Banners</h2>
-        <p>Explain what banners are.</p>
+        <p>
+          The "banner" styling is a way to display important messages or
+          notifications to the user. It provides a container with a background
+          color and text color that stands out from the rest of the page. The
+          "banner success" class applies a green background color to the banner,
+          indicating a successful action. The "banner warning" class applies a
+          yellow background color to the banner, indicating a warning or
+          caution. The "banner error" class applies a red background color to
+          the banner, indicating an error or failure. The JavaScript applied to
+          the banner allows the user to manually close any displayed banner, and
+          any banners with the "banner success" class will be displayed for 5
+          seconds before closing automatically.
+        </p>
         <button id="testBannerBtn">Test Banner</button>
         <button class="button-success" id="testSuccessBannerBtn">
           Test Success Banner
@@ -522,7 +768,15 @@
       <!-- Cards - Start -->
       <div class="row">
         <h2>Cards</h2>
-        <p>Describe cards here.</p>
+        <p>
+          The "card" styling is a way to group related content together in a
+          visually appealing way. It provides a container with a header, body,
+          and footer section. The header and footer sections are optional. The
+          "card-header" class applies a large weight to the header text, while
+          the "card-footer" class applies a smaller weight and italicizes the
+          text. The body section is where the main content of the card is
+          placed.
+        </p>
         <div class="card">
           <div class="card-header">Header</div>
           <div class="card-body">Body of the card goes here and stuff.</div>
